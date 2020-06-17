@@ -1,0 +1,62 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer{
+    /* background-color: lightslategrey; */
+    color: rgb(112, 112, 111);
+    border-top: 2px solid #eeeeee;
+    margin: 16px;
+    margin-left: 5px;
+    padding:16px 16px;    
+    
+}
+header{
+    color: black;
+    margin-top: 25px ;
+    margin-bottom: 48px;
+
+}
+h1{
+    font-size: 68px;
+}
+header a{
+    color: #888888;
+    margin: 16px;
+    text-decoration: none;
+
+}
+.portrait{
+
+    height: 200px;
+    
+
+}
+.main{
+    flex-grow: 1;
+}
+#message1{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#message2{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+border: 1px solid;
+padding: 5px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid dimgrey;
+    background: dimgrey;
+    padding: 5px;
+}
