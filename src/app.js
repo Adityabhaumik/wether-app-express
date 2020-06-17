@@ -6,7 +6,7 @@ const forcast = require('./utils/forcast')
 const app = express()
 const partialsPath=path.join(__dirname,'../templates/partials')
 const viewsPath = path.join(__dirname,'../templates/views')
-
+const port =  process.env.PORT || 3000
 app.set('view engine', 'hbs')
 app.set('views',viewsPath)
 hbs.registerPartials(partialsPath)
@@ -70,4 +70,4 @@ app.get("*",(req , res) => {
         author:'Aditya Bhaumik'    
     })
 })
-app.listen(3000, () => console.log(`Example app listening on port 3000!`))
+app.listen(port, () => console.log('Example app listening on port ' + port+'!'))
